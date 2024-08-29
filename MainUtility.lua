@@ -9,7 +9,7 @@ local ClosureBindings = {
 			local Camera = game:GetService("Workspace").CurrentCamera
 			local Mouse = LocalPlayer:GetMouse()
 			local UIVersion = "v1.0.0"
-            local MenuLogo = nil
+            local MenuLogo = 'http://www.roblox.com/asset/?id=114010671343675'
 			local Root = script
 			local Creator = require(Root.Creator)
 			local ElementsTable = require(Root.Elements)
