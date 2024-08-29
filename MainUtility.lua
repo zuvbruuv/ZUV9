@@ -9,7 +9,6 @@ local ClosureBindings = {
 			local Camera = game:GetService("Workspace").CurrentCamera
 			local Mouse = LocalPlayer:GetMouse()
 			local UIVersion = "v1.0.0"
-            local MenuLogo = 'http://www.roblox.com/asset/?id=114010671343675'
 			local Root = script
 			local Creator = require(Root.Creator)
 			local ElementsTable = require(Root.Elements)
@@ -1566,7 +1565,7 @@ local ClosureBindings = {
 
 				local Logo = New("ImageLabel", {
 					Name = "Icon",
-					Image = MenuLogo,
+					Image = "rbxassetid://114010671343675",
 					ImageColor3 = Color3.fromRGB(240, 240, 240),
 					AnchorPoint = Vector2.new(0.5, 0.5),
 					BackgroundColor3 = Color3.fromRGB(255, 255, 255),
