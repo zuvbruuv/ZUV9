@@ -1572,7 +1572,7 @@ local ClosureBindings = {
 					BackgroundTransparency = 1,
 					BorderColor3 = Color3.fromRGB(0, 0, 0),
 					BorderSizePixel = 0,
-					Position = UDim2.fromScale(0.5, 0.5),
+					Position = UDim2.fromScale(0.5, 0.54),
 					Size = UDim2.fromOffset(32, 32),
 				})
 
