@@ -3684,7 +3684,7 @@ local ClosureBindings = {
 			DualLabel.__type = "DualLabel"
 
 			function DualLabel:New(Config)
-				local DualLabel = require(Components.Element)(Config[1].Label1.Title, Config[1].Label1.Content, DualLabel.Container, false)
+				local DualLabel = require(Components.Element)(Config[1].Label1.Title, Config[1].Label1.Content, Config[1].Label1.Color, DualLabel.Container, false)
 				DualLabel.Frame.BackgroundTransparency = 0.92
 				DualLabel.Border.Transparency = 0.6
 				DualLabel.LabelHolder:Destroy()
@@ -3722,7 +3722,7 @@ local ClosureBindings = {
 						local DescLabel = New("TextLabel", {
 							FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
 							Text =  v.Label1.Content,
-							TextColor3 = v.Label1.Color or Color3.fromRGB(240, 240, 240),
+							TextColor3 = Color3.fromRGB(240, 240, 240),
 							TextSize = 12,
 							TextWrapped = true,
 							TextXAlignment = Enum.TextXAlignment.Left,
@@ -3776,7 +3776,7 @@ local ClosureBindings = {
 						local DescLabel = New("TextLabel", {
 							FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
 							Text =  v.Label2.Content,
-							TextColor3 = v.Label2.Color or Color3.fromRGB(240, 240, 240),
+							TextColor3 =Color3.fromRGB(240, 240, 240),
 							TextSize = 12,
 							TextWrapped = true,
 							TextXAlignment = Enum.TextXAlignment.Left,
