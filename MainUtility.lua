@@ -22,7 +22,7 @@ local ClosureBindings = {
 			local GUI = New("ScreenGui", {
 				Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
 			})
-                        GUI.Name = "Therion UI"
+                        GUI.Name = "Therion"
 			--ProtectGui(GUI)
 			NotificationModule:Init(GUI)
 
