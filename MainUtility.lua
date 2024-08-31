@@ -3684,7 +3684,7 @@ local ClosureBindings = {
 			DualLabel.__type = "DualLabel"
 
 			function DualLabel:New(Config)
-				local DualLabel = require(Components.Element)(Config[1].Label1.Title, Config[1].Label1.Content, Config[1].Label1.Color, DualLabel.Container, false)
+				local DualLabel = require(Components.Element)(Config[1].Label1.Title, Config[1].Label1.Content, DualLabel.Container, false)
 				DualLabel.Frame.BackgroundTransparency = 0.92
 				DualLabel.Border.Transparency = 0.6
 				DualLabel.LabelHolder:Destroy()
