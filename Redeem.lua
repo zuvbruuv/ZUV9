@@ -1,5 +1,6 @@
 local Codes = {
     'VERYDEMURE',
+    'HERE1234',
 }
 
 for i, v in pairs(Codes) do
