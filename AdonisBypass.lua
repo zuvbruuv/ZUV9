@@ -1,6 +1,4 @@
 -- credits to whoever made it bc i didn't
-
-szzzz
     local getinfo = getinfo or debug.getinfo
     local DEBUG = false
     local Hooked = {}
