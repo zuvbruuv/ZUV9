@@ -4240,7 +4240,7 @@ local ClosureBindings = {
 
 						local ToggleFrame = New("Frame", {
 							Size = UDim2.fromOffset(27, 27),
-							Position = UDim2.new(1, -45, 0.5, 0),
+							Position = UDim2.new(1, -10, 0.5, 0),
 							AnchorPoint = Vector2.new(1, 0.5),
 							BackgroundColor3 = Color3.fromRGB(255,255,255),
 							Parent = KeybindFrame.Frame,
