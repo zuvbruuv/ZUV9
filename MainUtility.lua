@@ -4052,7 +4052,7 @@ local ClosureBindings = {
 
 				local KeybindDisplayFrame = New("TextButton", {
 					Size = UDim2.fromOffset(0, 30),
-					Position = UDim2.new(1, -10, 0.5, 0),
+					Position = UDim2.new(1, (Config.Toggle and -50 or -10), 0.5, 0),
 					AnchorPoint = Vector2.new(1, 0.5),
 					BackgroundTransparency = 0.9,
 					Parent = KeybindFrame.Frame,
