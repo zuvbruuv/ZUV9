@@ -1,3 +1,3 @@
 return {
-    [12062942034] = "(5cc74c)"; -- Heroes Online World
+    [12062942034] = "(fb5071)"; -- Heroes Online World
 }
