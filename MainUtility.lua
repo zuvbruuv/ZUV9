@@ -1,6 +1,4 @@
 local ImportGlobals
-if TherionLoaded then return messagebox('The script is already executed', 'therion', 0) end
-getgenv().TherionLoaded = true
 local ClosureBindings = {
 	function()local wax,script,require=ImportGlobals(1)local ImportGlobals return (function(...)local Lighting = game:GetService("Lighting")
 			local RunService = game:GetService("RunService")
