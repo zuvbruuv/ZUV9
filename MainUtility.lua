@@ -1,3 +1,5 @@
+-- CREDITS TO TENEBRA FOR THE MODIFIED UI - HOPE YOU GUYS DONT MIND
+
 local ImportGlobals
 local ClosureBindings = {
 	function()local wax,script,require=ImportGlobals(1)local ImportGlobals return (function(...)local Lighting = game:GetService("Lighting")
